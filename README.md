@@ -51,6 +51,7 @@ aaa radius-server account-interim-interval [time in seconds]
 There are two interfaces:
 - `wifi0`, which is 2.4GHz
 - `wifi1`, which is 5GHz
+
 To enable the Wi-Fi radio, in this case Wi-Fi 5 (5GHz), use this command:
 ~~~
 interface wifi1 radio profile radio_ac1 #WIFI 5
