@@ -29,7 +29,7 @@ To set the Wi-Fi protocol to `open`, use this command:
 ~~~
 security-object [object name] security protocol-suite open
 ~~~
-## Adding secondory security protocol (MAC-based-auth)
+## Adding secondary security protocol (MAC-based-auth)
 To use MAC-based-auth, use this command:
 ~~~
 security-object [object name] security additional-auth-method mac-based-auth
