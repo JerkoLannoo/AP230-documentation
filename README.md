@@ -19,7 +19,7 @@ no capwap client enable
 ~~~
 user-profile [profile-name] vlan-id [vlan-id] attribute [attribute-id]
 ~~~
-You can set the `vlan-id` to one.
+You can set the `vlan-id` to `1`.
 ## Add security-object
 ~~~
 security-object [name]
