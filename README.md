@@ -1,4 +1,4 @@
-# AP230-documentation for MAC-based-auth
+# AP230 documentation for MAC-based-auth
 Adding MAC-based authentication to AP230 via the CLI. You could use this for a NAC, like e.g. PacketFence.
 ## Reset to factory defaults
  ```
