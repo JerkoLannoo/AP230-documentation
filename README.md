@@ -20,6 +20,7 @@ no capwap client enable
 user-profile [profile-name] vlan-id [vlan-id] attribute [attribute-id]
 ~~~
 You can set the `vlan-id` to `1`.
+The `attribute` is an ID for a private RADIUS server, but you can set this to `0`. Note: the `attribute` must be unique to each `user-profile`.
 ## Add security-object
 ~~~
 security-object [name]
