@@ -35,9 +35,15 @@ To use MAC-based-auth, use this command:
 security-object [object name] security additional-auth-method mac-based-auth
 ~~~
 ## Adding RADIUS authentication server
+To add a RADIUS authentication server, use this command:
 ~~~
 aaa radius-server primary [ip] shared-secret [key]
 ~~~
+To enable CoA (Change of Authorization), use this command:
+~~~
+aaa radius-server dynamic-auth-extension
+~~~
+Note: this setting is disabled by default.
 ## Adding RADIUS accounting server
 To add a RADIUS accounting server, use this command:
 ~~~
